@@ -1,0 +1,11 @@
+Name,Sex,Event,Equipment,Age,AgeClass,BirthYearClass,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Dots,Wilks,Glossbrenner,Goodlift,Tested,Country,State,Federation,ParentFederation,Date,MeetCountry,MeetState,MeetTown,MeetName,Sanctioned
+John Smith #1,M,SBD,Raw,27,,,Open,91.4,93,200,210,-215,,210,130,-135,135,,135,250,260,270,,270,615,1,412.08,,,,Yes,USA,,USAPL,IPF,2022-03-12,USA,,,Spring Classic,Yes
+John Smith #1,M,SBD,Raw,28,,,Open,92.1,93,205,215,222.5,,222.5,132.5,137.5,-140,,137.5,255,265,-275,,265,625,2,417.85,,,,Yes,USA,,USAPL,IPF,2023-06-03,USA,,,Summer Open,Yes
+John Smith #2,M,SBD,Wraps,34,,,Open,108.7,110,250,265,275,,275,150,160,-165,,160,280,300,310,,310,745,1,465.3,,,,,USA,,USPA,IPL,2021-10-02,USA,,,Fall Showdown,Yes
+Jane Doe,F,SBD,Raw,24,,,Open,62.3,63,120,127.5,-132.5,,127.5,65,70,-72.5,,70,150,160,167.5,,167.5,365,1,411.6,,,,Yes,USA,,USAPL,IPF,2023-05-20,USA,,,Spring Classic,Yes
+Jane Doe,F,SBD,Raw,25,,,Open,62.8,63,125,132.5,137.5,,137.5,70,-75,-75,,70,160,170,-177.5,,170,377.5,1,423.9,,,,Yes,USA,,USAPL,IPF,2024-02-10,USA,,,Winter Open,Yes
+Anna Berg,F,SBD,Raw,29,,,Open,61.9,63,130,137.5,140,,140,70,72.5,75,,75,175,185,-190,,185,400,1,450.2,,,,Yes,Sweden,,SSF,IPF,2024-04-13,Sweden,,,SM Klassisk,Yes
+Mia Wong,F,SBD,Raw,31,,,Open,60.5,63,90,100,-105,,100,50,55,-57.5,,55,120,130,-135,,130,285,2,323.4,,,,,USA,,USPA,IPL,2023-09-09,USA,,,Fall Showdown,Yes
+Erik Lund,M,SBD,Raw,22,,,Juniors,92.6,93,-180,-180,-180,,-180,,,,,,,,,,,,DQ,,,,,Yes,Sweden,,SSF,IPF,2024-01-20,Sweden,,,Vinterpokalen,Yes
+Tom Press,M,B,Raw,40,,,Masters 1,99.1,105,,,,,,170,175,180,182.5,180,,,,,,180,1,114.2,,,,Yes,USA,,USAPL,IPF,2023-11-11,USA,,,Bench Bash,Yes
+Erik lund,M,D,Raw,45,,,Masters 2,88.0,93,,,,,,,,,,,200,210,-220,,210,210,1,140.1,,,,Yes,Sweden,,SSF,IPF,2022-08-27,Sweden,,,Sommarlyftet,Yes
