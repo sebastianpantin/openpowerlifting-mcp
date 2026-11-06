@@ -1,5 +1,5 @@
 from functools import cache
-from typing import Annotated, Any, Literal
+from typing import Annotated, Any
 
 import duckdb
 from mcp.server.mcpserver import MCPServer
@@ -8,10 +8,7 @@ from pydantic import Field
 
 from opl_mcp import queries
 from opl_mcp.db import connect, parquet_path
-
-Sex = Literal["M", "F", "Mx"]
-Equipment = Literal["Raw", "Wraps", "Single-ply", "Multi-ply", "Unlimited", "Straps"]
-Event = Literal["SBD", "BD", "SD", "SB", "S", "B", "D"]
+from opl_mcp.queries import Equipment, Event, Sex
 
 READ_ONLY = ToolAnnotations(read_only_hint=True, idempotent_hint=True, open_world_hint=False)
 

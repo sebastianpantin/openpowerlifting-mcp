@@ -1,10 +1,14 @@
 import datetime
 import re
-from typing import Any
+from typing import Any, Literal
 
 import duckdb
 
 from opl_mcp.ingest import LIFTS
+
+Sex = Literal["M", "F", "Mx"]
+Equipment = Literal["Raw", "Wraps", "Single-ply", "Multi-ply", "Unlimited", "Straps"]
+Event = Literal["SBD", "BD", "SD", "SB", "S", "B", "D"]
 
 SUFFIX_TOKEN = re.compile(r"#\d+")
 NAME_SUFFIX = r"\s*#\d+$"
