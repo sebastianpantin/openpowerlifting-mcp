@@ -36,6 +36,23 @@ Restart Claude Desktop and the tools show up. Any other MCP client can start the
 
 The server looks for `data/openpowerlifting.parquet` in the repo. Set `OPL_PARQUET` to use a file somewhere else.
 
+## Use it as a skill
+
+`skills/openpowerlifting/` is an [Agent Skill](https://agentskills.io) for clients that load skills instead of, or as well as, MCP servers. It runs the same queries through the `opl` command, so it needs the setup above. Link it into your skills folder, for example for Claude Code:
+
+```sh
+ln -s "$PWD/skills/openpowerlifting" ~/.claude/skills/openpowerlifting
+```
+
+The skill's `opl` script finds the checkout through the link. You can also run the command yourself:
+
+```sh
+uv run opl search "ray williams"
+uv run opl history "John Doe #2"
+uv run opl percentile 600 --sex M --equipment Raw --weight-class 93 --tested
+uv run opl compare "Lifter A" "Lifter B" --equipment Raw
+```
+
 ## Development
 
 ```sh
